@@ -1,0 +1,17 @@
+package org.ImportantProgram;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class CountWordInSentence {
+
+	public static void main(String[] args) {
+		String str = "My name is vaibhav";
+		int count =0;
+		for(int i=0; i<str.length(); i++) {
+			count++;
+		}
+		System.out.println(count);
+	}
+
+}
